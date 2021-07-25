@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using static Raylib.Raylib;
 
 namespace _4Elements
 {

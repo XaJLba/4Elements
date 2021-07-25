@@ -1,4 +1,5 @@
 ﻿using System;
+using static Raylib.Raylib;
 
 namespace _4Elements
 {
@@ -6,7 +7,7 @@ namespace _4Elements
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
