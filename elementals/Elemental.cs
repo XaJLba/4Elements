@@ -5,6 +5,7 @@ namespace _4Elements
     abstract class Elemental
     {
         public Vector2 position { get; private set; }
-        public abstract void Die(Map map);
+        public int timeLeftToLive { get; private set; }
+        public abstract void Update(Map map);
     }
 }

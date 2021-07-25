@@ -6,7 +6,7 @@ namespace _4Elements
 {
     class NatureElemental : Elemental
     {
-        public override void Die(Map map)
+        public override void Update(Map map)
         {
             throw new NotImplementedException();
         }
