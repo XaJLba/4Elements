@@ -1,5 +1,4 @@
 ﻿using static Raylib.Raylib;
-using static Raylib.Raylib;
 
 namespace _4Elements
 {
