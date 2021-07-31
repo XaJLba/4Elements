@@ -4,8 +4,8 @@ namespace _4Elements
 {
     class ApplicationWindow
     {
-        public int width { get; }
-        public int height { get; }
+        public readonly int width;
+        public readonly int height;
         public ApplicationWindow(int width, int height, string caption, int fps)
         {
             InitWindow(width, height, caption);
