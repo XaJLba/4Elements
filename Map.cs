@@ -8,12 +8,17 @@ namespace _4Elements
     {
         public readonly int width;
         public readonly int height;
-        private MapTile[] tiles;
-        // private Elemental[] elementals;
+        private readonly MapUpdater updater;
+        public MapTile[,] tiles { get; set; }
         public Map(int width, int height)
         {
             this.width = width;
             this.height = height;
+            updater = new MapUpdater();
+        }
+        public void UpdateSelf()
+        {
+            updater.UpdateMap(this);
         }
     }
 }

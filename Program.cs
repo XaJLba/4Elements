@@ -15,7 +15,7 @@ namespace _4Elements
                 ClearBackground(Raylib.Color.BLACK);
                 BeginDrawing();
 
-
+                map.UpdateSelf();
 
                 EndDrawing();
             }
